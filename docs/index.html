@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Преобразование DNA в RNA</title>
+  </head>
+  <body>
+    <div class="page">
+      <div class="header">
+        <h2><strong>Преобразование ДНК в РНК</strong></h2>
+        <p>Для конвертации последовательности ДНК в РНК необходимо в окне "Поле ввода данных(ДНК)" ввести цепочку ДНК, без пробела, например "GCTA" и нажать кнопку "Преобразовать". Результат преобразования вы можете увидеть в окне "Результат конвертации(РНК)".<br> <em><b>(A) - Аденин (C) - Цитозин (G) - Гуанин (T) - Тимин (U) - Урацил</b></em></p><br>
+      </div>
+      <div class="container">
+        <div class="block_dna">
+         <p class="paragraph">Поле ввода данных(ДНК):</p> <br><textarea class ="entered_data"></textarea>
+        </div>
+          <div class="block_button">
+            <div class="block_button_center"><button>Преобразовать</button></div>
+          </div>
+        <div class="block_rna">
+          <p class="paragraph">Результат конвертации(РНК):</p>
+          <br><div class="data_obtained"></div>
+        </div>
+      </div>
+    </div>
+  <script src="app.js"></script>
+  </body>
+</html>
